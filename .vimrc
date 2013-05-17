@@ -329,3 +329,6 @@ call unite#custom_action('file', 'my_vsplit', my_action)
 "    endif
 "endfunction
 "nnoremap <silent> <Space>cd :<C-u>CD<CR>
+
+"move tab
+noremap tn :tabn<cr>
